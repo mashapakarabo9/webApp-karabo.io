@@ -1,0 +1,321 @@
+body {
+   
+    background-image: url(https://thumbs.dreamstime.com/b/open-notebook-textural-brown-desk-modern-office-next-to-cup-black-coffee-freelancer-needs-workstation-accessories-56150522.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+    margin: 0;
+}
+
+.header-section {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    padding-top: 10px;
+    background-color: #111;
+    height: 100px;
+    align-items: center;
+    text-decoration-line: none;
+    
+
+}
+
+.logo {
+    display: flex;
+    margin-right: 55%;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: #45a049 solid;
+
+}
+
+.nav-bar ul li {
+
+    display: inline;
+    padding-right: 0px;
+
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 14px;
+}
+
+ul li a:hover {
+    color:black;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    
+    
+
+}
+
+.video-box1 {
+    margin: 30px;
+    width: 90%;
+    height: 500px;
+
+}
+
+.sections {
+
+    width: 100%;
+    height: auto;
+}
+.about-me
+{
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 5%;
+border-radius: 25px;
+text-align: center;
+padding: 3% 0%;
+color: rgb(253, 253, 253);
+background-color:#000;
+opacity: .4;
+
+}
+
+
+.sections h1 {
+    padding-left: 60px;
+}
+
+.bio-section {
+
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    background-color: #111;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+}
+
+.bio-section p {
+    width: 70%;
+    padding-right: 300px;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+#bio
+
+
+video {
+    object-fit: fill;
+    min-height: 400px;
+    }
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+
+
+
+
+
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+footer ul li a {
+    display: inline;
+    color: brown;
+}
+
+/* =====================contact us ==================*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.column h2{
+    background-color: #000;
+    color: #ccc;
+    border-radius: 2px;
+    margin-bottom: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .header-section ul li a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (Max-width: 768px) {
+    
+}
+/* =====================================================================footer styling===================================*/
+
+
+footer {
+    background-color: #111;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0, 9;
+}
+
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
+}
